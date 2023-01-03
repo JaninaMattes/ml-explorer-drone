@@ -1,0 +1,48 @@
+logs/gradient_tape/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ppo_impl/venv/*
+
+# Visual Studio cache directory
+.vs/
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unity related
+.DS_Store
+ProjectSettings/boot.config
+ProjectSettings/MemorySettings.asset
+Packages/packages-lock.json
+Packages/manifest.json
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+Assets/ML-Agents/Timers.meta
+Assets/ML-Agents/Timers/
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Monitoring
+*/wandb/*
+PPO/ppo_torch/wandb/
+
+# Checkpoints
+# IPython notebook checkpoints
+.ipynb_checkpoints
+
+# models
+*.pth
+wandb/
